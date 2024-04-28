@@ -1,0 +1,6 @@
+---
+# see https://chainlist.org/chain/534352
+- "node": "rpc-official"
+  "url": "https://rpc.scroll.io/"
+- "node": "rpc-ankr"
+  "url": "https://rpc.ankr.com/scroll"

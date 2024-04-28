@@ -1,0 +1,16 @@
+version: '3'
+services:
+  rpc-monitor:
+    build:
+      context: ./
+    container_name: rpc-monitor
+    restart: on-failure
+    ports:
+      - 8000:8000
+    logging:
+      driver: json-file
+      options:
+        max-size: '100m'
+        max-file: '1'
+    # volumes:
+    #   - ./config/config.yaml:/app/config/config.yaml
