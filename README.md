@@ -3,7 +3,7 @@
 change config.yaml, monitor the rpc endpoint you need, for example
 ```
 - "node": "rpc-custom"
-  "url": "https://192.168.1.2:8545"
+  "url": "http://192.168.1.2:8545"
 ```
 
 docker compose build && docker compose up -d
